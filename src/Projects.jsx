@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="title">
             <h2>Projects</h2>
             <div className="title-underline"></div>
-            <div className="projects center">
+            <div className="projects-center">
                 {projects.map(project=>{
                    const {id,img,url,title}=project
                    return <a key={id} href={url} target='_blank' rel='noreferrer' className='project'>
